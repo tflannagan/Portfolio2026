@@ -3,18 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ty flannagan | portfolio</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23000'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='60' font-weight='bold' fill='%2300ff41' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
+<title>ty flannagan</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23000'/%3E%3Ctext x='50' y='68' font-family='monospace' font-size='60' font-weight='bold' fill='%2300e5ff' text-anchor='middle'%3E%3E_%3C/text%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#000;
-  --green:#00ff41;
-  --green-dim:#0a3d1a;
-  --green-mid:#12a13d;
-  --text:#c8ffd4;
-  --muted:#4c8a5e;
-  --line:rgba(0,255,65,0.16);
+  --green:#00e5ff;
+  --green-dim:#0a2d3d;
+  --green-mid:#0e8fb3;
+  --text:#c8f4ff;
+  --muted:#4c7a8a;
+  --line:rgba(0,229,255,0.16);
   --font:'Share Tech Mono',monospace;
 }
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -119,7 +119,7 @@ a:hover{color:var(--green);}
 .hero-name{
   font-size:clamp(2.6rem,8vw,5.2rem);
   color:var(--green);letter-spacing:-0.01em;
-  margin-bottom:1.2rem;text-shadow:0 0 18px rgba(0,255,65,0.35);
+  margin-bottom:1.2rem;text-shadow:0 0 18px rgba(0,229,255,0.35);
 }
 .hero-sub{
   font-size:clamp(0.95rem,1.6vw,1.15rem);
@@ -133,9 +133,9 @@ a:hover{color:var(--green);}
   font-size:0.82rem;letter-spacing:0.08em;color:var(--muted);
   transition:border-color .25s,color .25s,background .25s;
 }
-.btn:hover{border-color:var(--green);color:var(--green);background:rgba(0,255,65,0.05);}
+.btn:hover{border-color:var(--green);color:var(--green);background:rgba(0,229,255,0.05);}
 .btn-primary{color:var(--green);border-color:var(--green-mid);}
-.btn-primary:hover{background:rgba(0,255,65,0.08);}
+.btn-primary:hover{background:rgba(0,229,255,0.08);}
 .scroll-cue{
   position:absolute;bottom:36px;left:50%;transform:translateX(-50%);
   font-size:0.62rem;letter-spacing:0.35em;color:var(--muted);
@@ -187,7 +187,7 @@ a:hover{color:var(--green);}
 .proj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1px;background:var(--line);}
 .proj-card{background:#000;transition:opacity .3s,transform .3s;}
 .proj-card.hidden{display:none;}
-.proj-card:hover{background:rgba(0,255,65,0.03);}
+.proj-card:hover{background:rgba(0,229,255,0.03);}
 .proj-body{padding:22px 24px;}
 .proj-title{font-size:1.05rem;color:var(--green);margin-bottom:0.5rem;}
 .proj-title::before{content:'/';color:var(--green-dim);}
@@ -219,7 +219,7 @@ a:hover{color:var(--green);}
 .fg-lbl::before{content:'> ';}
 .fg-inp{
   font-family:var(--font);font-size:0.88rem;color:var(--text);
-  background:rgba(0,255,65,0.03);border:1px solid var(--green-dim);
+  background:rgba(0,229,255,0.03);border:1px solid var(--green-dim);
   padding:9px 12px;width:100%;transition:border-color .2s;
 }
 .fg-inp::placeholder{color:var(--muted);opacity:0.6;}
@@ -232,7 +232,7 @@ textarea.fg-inp{resize:vertical;min-height:100px;}
   color:var(--green);font-size:0.82rem;letter-spacing:0.1em;
   transition:background .2s,color .2s;
 }
-.f-submit:hover:not(:disabled){background:rgba(0,255,65,0.08);}
+.f-submit:hover:not(:disabled){background:rgba(0,229,255,0.08);}
 .f-submit:disabled{opacity:0.5;}
 #f-success{display:none;text-align:center;padding:24px 0;}
 #f-success.visible{display:block;animation:fadein .4s ease both;}
@@ -276,7 +276,7 @@ footer{
 
 <section id="hero">
   <div class="hero-eyebrow flicker">AVAILABLE FOR WORK · RENO, NV</div>
-  <h1 class="hero-name">ty flannagan</h1>
+  <h1 class="hero-name">Ty Flannagan</h1>
   <div class="hero-sub">root access: <span id="hero-tw"></span><span class="cur">&nbsp;</span></div>
   <div class="hero-btns">
     <a href="#portfolio" class="btn btn-primary">view_work</a>
@@ -301,9 +301,9 @@ footer{
     <div id="about-panels" class="rv" style="margin-top:2rem;">
       <div class="tab-panel is-active" data-panel="bio">
         <p class="bio-p">Developer with a rare blend across web development, data analysis, and cybersecurity. Secure, engaging interfaces, user experience always at the forefront — code as thoughtful as it is functional.</p>
-        <p class="bio-p">10 years in tech, 15 total years experience spanning full-stack development, machine learning models, systems analysis, and IT infrastructure across a wide variety of industries.</p>
+        <p class="bio-p">9 years in tech, 15 total years experience spanning full-stack development, machine learning models, systems analysis, and IT infrastructure across a wide variety of industries.</p>
         <div class="avail-row blink">■ available for opportunities</div>
-        <a href="./assets/Tyler Flannagan - Resume 2026.pdf" class="resume-link" download>↓ download_resume</a>
+        <a href="./assets/Ty_Flannagan_Resume.pdf" class="resume-link" download>↓ download_resume</a>
         <div class="stats-row">
           <div class="stat-cell"><div class="stat-n">9+</div><div class="stat-l">years tech</div></div>
           <div class="stat-cell"><div class="stat-n">15</div><div class="stat-l">total xp</div></div>
@@ -431,8 +431,8 @@ footer{
 </section>
 
 <footer>
-  <span>© 2026 ty flannagan</span>
-  <span>reno, nv</span>
+  <span>© 2025 ty flannagan</span>
+  <span>reno, nv · html · css · js</span>
 </footer>
 
 <script>
@@ -464,7 +464,7 @@ const Matrix = {
       const ch = this.chars[Math.floor(Math.random()*this.chars.length)];
       const y = this.drops[i]*this.size;
       const grad = Math.random();
-      this.ctx.fillStyle = grad>0.97 ? '#c8ffd4' : 'rgba(0,255,65,'+(0.35+Math.random()*0.4)+')';
+      this.ctx.fillStyle = grad>0.97 ? '#c8f4ff' : 'rgba(0,229,255,'+(0.35+Math.random()*0.4)+')';
       this.ctx.fillText(ch, i*this.size, y);
       if(y > this.H && Math.random() > 0.975) this.drops[i] = 0;
       this.drops[i] += 0.4;
